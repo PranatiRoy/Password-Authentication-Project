@@ -1,0 +1,68 @@
+*{
+    margin: 0;padding: 0;
+}
+div {
+    padding: 50px;
+    text-align: center;
+    
+  }
+  .bg{
+      background: url('cyber-security-3374252_1280-1280x640.jpg');
+  }
+  h1{
+      text-align: center;
+      text-decoration-style: double ;
+      text-decoration-line: underline;
+      color:white
+  }
+  input {
+    display: block;
+    margin: auto;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    border-radius: 10px;
+    background-color: white;
+    color:gray
+  }
+  ::placeholder {
+    color: rgb(23, 19, 43);
+    opacity: 0.5; /* Firefox */
+    font-size: large;
+  }
+  button{
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: rgb(4, 4, 39);
+    background-color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+  }
+  
+  button:hover{
+    cursor: pointer;
+  }
+  
+  p{
+    font-size: 1.2em;
+    margin-top: 0;
+    display: none;
+  }
+  
+  p.valid{
+  color:white;
+  
+  }
+  
+  p.invalid{
+    color: white;
+    font-weight: bolder;
+  }
+  #password-strength{
+     color: white;
+     width: 100px;
+     margin: auto;
+     border-radius: 5px;
+     font-weight: bold;
+     margin-bottom: 5px;
+  }
